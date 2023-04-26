@@ -1,0 +1,47 @@
+.nav-wrapper {
+  background-color: rgb(18, 1, 1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-link img {
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .nav-item {
+    display: table-cell;
+    width: auto;
+    float: none;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    float: right;
+  }
+}
