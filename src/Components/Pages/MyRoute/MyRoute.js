@@ -13,6 +13,7 @@ import Four04 from "../Four04/Four04";
 import { Route, Routes } from "react-router-dom";
 import LearnMore from "../LearnMore/LearnMore";
 import DisplayTable from "../../YoutubeVideos/DisplayTable";
+import IphoneTable from "../Iphone/IphoneTable";
 function MyRoute() {
   return (
     <Routes>
@@ -24,7 +25,8 @@ function MyRoute() {
       <Route path="/tv" element={<Tv />} />
       <Route path="/music" element={<Music />} />
       <Route path="/support" element={<Support />} />
-      <Route path="/table" element={<DisplayTable />} />
+      <Route path="/table1" element={<DisplayTable />} />
+      <Route path="/table2" element={<IphoneTable />} />
       <Route path="/search" element={<Search />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="*" element={<Four04 />} />

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./DisplapTable.css";
 function DisplayTable() {
-  // make use of the useState hook to store all the data that we fetched.
+  // make use of the useState hook to store all the data that we fetch.
 
   const [youtubeVideos, setVideos] = useState([]);
 

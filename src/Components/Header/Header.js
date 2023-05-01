@@ -40,7 +40,8 @@ function Header() {
                     <NavBarList LinkUrl="/tv" LinkName="Tv" />
                     <NavBarList LinkUrl="/music" LinkName=" Music" />
                     <NavBarList LinkUrl="/support" LinkName="Support" />
-                    <NavBarList LinkUrl="/table" LinkName="Table" />
+                    <NavBarList LinkUrl="/table1" LinkName="Table 1" />
+                    <NavBarList LinkUrl="/table2" LinkName="Table 2" />
 
                     <li className="nav-item">
                       <a className="nav-link js-scroll-trigger" href="/search">
